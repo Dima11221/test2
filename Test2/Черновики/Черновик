@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2</title> <!--название сайта-->
+</head>
+<body>
+    <header><!--шапка сайта-->
+        <div>
+            <a href="#">  <!--сюда ссылку вставлять-->
+                <img src="./logo.svg" alt="Логотип сайта леоник"> <!--#alt заполнять-->
+            </a>
+            <nav><!--семантический тег для навигации-->
+                <ul><!--ненумерованный список-->
+                    <li><!--элемент списка-->
+                        <a href="#">Home</a><!--ссылка внутри списка навигации-->
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#">Log us</a>
+                    </li>
+                </ul>
+            </nav>
+            <button>FREE TRIAL</button><!--кнопка-->
+        </div>
+    </header>
+    <main>
+        <h1>This is simply a smarter way to make your legal online
+            <img src="./Рука.svg" alt="Рука">
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+        
+        <button>FREE 30 DAY TRIAL</button>
+        <br>
+
+        <div style="float: left">
+            <img src="./щит.svg" alt="щит">
+        </div>
+        <div style="float: left"></div>
+        SSL secured connection
+        </div>
+        
+        <h2 style="text-align: center;">Services</h2>
+        <p style="text-align: center;">Lionic guides you on making decisions for all aspects of your end-of-life plans.</p>
+        
+        <img src="what-1(1).svg" alt="Фото1">
+        <h3>Your legacy</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+    
+        <img src="Group(2).svg" alt="Фото2">
+        <h3>Your Health</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+        
+        <img src="Group(3).svg" alt="Фото3">
+        <h3>Funeral & Memorial</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                
+        <img src="Group(4).svg" alt="Фото4">
+        <h3>Legal & Financial</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+    </main><!--контент сайта-->
+    <footer></footer><!--подвал сайта-->
+</body><!--тело сайта-->
+</html><!--структура документа-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2</title><!--название сайта-->
+</head>
+<body>
+    <header><!--шапка сайта-->
+        <div>
+            <a href="#">  <!--сюда ссылку вставлять-->
+                <img src="./logo.svg" alt="Логотип сайта леоник"> <!--#alt заполнять-->
+            </a>
+            <nav><!--семантический тег для навигации-->
+                <ul><!--ненумерованный список-->
+                    <li><!--элемент списка-->
+                        <a href="#">Home</a><!--ссылка внутри списка навигации-->
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#">Log us</a>
+                    </li>
+                </ul>
+            </nav>
+            <button>FREE TRIAL</button><!--кнопка-->
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>This is simply a smarter way to make your legal online</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+        
+            <button>FREE 30 DAY TRIAL</button>
+            <br>
+
+            <div style="float: left">
+                <img src="./щит.svg" alt="щит">
+            </div>
+            <div style="float: left">
+            SSL secured connection
+            </div>
+        </div>
+        
+        <div>
+            <h2>Services</h2>
+            <p>Lionic guides you on making decisions for all aspects of your end-of-life plans.</p>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <img src="what-1(1).svg" alt="Фото1">
+                        <h3>Your legacy</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                    </li>
+                    <li>
+                        <img src="Group(2).svg" alt="Фото2">
+                        <h3>Your Health</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                    </li>
+                    <li>
+                        <img src="Group(3).svg" alt="Фото3">
+                        <h3>Funeral & Memorial</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                    </li>
+                    <li>
+                        <img src="Group(4).svg" alt="Фото4">
+                        <h3>Legal & Financial</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main><!--контент сайта-->
+    <footer></footer><!--подвал сайта-->
+</body><!--тело сайта-->
+</html><!--структура документа-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"><!--подключение css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>test2</title><!--название сайта-->
+</head>
+<body>
+    <header id="header-id" class="header-bg"><!--шапка сайта-->
+        <div class="header-wrapper">
+            <a class=logo-link href="#">  <!--сюда ссылку вставлять-->
+                <img class="img" src="./logo.svg" alt="Логотип сайта леоник"> <!--#alt заполнять-->
+            </a>
+            <nav><!--семантический тег для навигации-->
+                <ul><!--ненумерованный список-->
+                    <li><!--элемент списка-->
+                        <a href="#">Home</a><!--ссылка внутри списка навигации-->
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#">Log us</a>
+                    </li>
+                </ul>
+            </nav>
+            <button>FREE TRIAL</button><!--кнопка-->
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>This is simply a smarter way to make your legal online</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+        
+            <button>FREE 30 DAY TRIAL</button>
+            <div>
+                <img style="float: left" src="./щит.svg" alt="щит"><p>SSL secured connection</p>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Services</h2>
+            <p>Lionic guides you on making decisions for all aspects of your end-of-life plans.</p>
+                <img src="what-1(1).svg" alt="Фото1">
+                <h3>Your legacy</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                    
+                <img src="Group(2).svg" alt="Фото2">
+                <h3>Your Health</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                    
+                <img src="Group(3).svg" alt="Фото3">
+                <h3>Funeral & Memorial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                    
+                <img src="Group(4).svg" alt="Фото4">
+                <h3>Legal & Financial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p> 
+        </div>
+    </main><!--контент сайта-->
+    <footer></footer><!--подвал сайта-->
+</body><!--тело сайта-->
+</html><!--структура документа-->

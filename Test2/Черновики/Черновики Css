@@ -1,0 +1,39 @@
+/*p, h2, h3 {
+    margin: 0;
+}
+
+.header-bg {
+    padding: 20px;
+    background-color: #000;
+}
+
+.header-bg div {
+    background-color: #fff;
+} */
+
+#header-id {
+    padding: 20px 0 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-bg {
+    background-color: #000;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/*#header-id {
+    padding: 20px -top 0 - right 20px -botrom 0 -left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+} */
