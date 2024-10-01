@@ -55,6 +55,7 @@ body {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     max-width: 1170px;
     margin: 0 auto;
@@ -108,40 +109,11 @@ body {
     
 }
 
-/*.imgblock-1-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: fill;  
-}*/
-
-/*.imgblock-1 {
-    position: relative;
-    display: inline-block;
-    max-width: 1540px;
-    max-height: 550px;
-    
-}
-
-.imgblock-1-wrapper {
-    max-width: 1540px;
-    max-height: 550px;
-    position: absolute;
-    object-fit: fill;
-    
-}
-.imgblock-1-Text {
-    position: relative;
-    max-width: 1170px;
-    margin: 0 auto;
-    /*padding: 113px 826px 134px 185px;
-}*/
-
 .imgblock-1-wrapper {
     display: flex;
     flex-direction: column;
     width: 1170px;
     margin: 0 auto;
-    /*padding: 113px 826px 134px 185px;*/
 }
 
 .wrapper-Text1 {
@@ -182,7 +154,6 @@ body {
     width: 180px;
     height: 17px;
     margin-left: 40px;
-    /*padding: 15px 35px 15px 35px;*/
 }
 
 .imgblock-1-SSL p {
@@ -207,8 +178,6 @@ body {
     padding-top: 87px;
     border-top: 1px solid #E4E4E4;
     max-width: 1170px;
-    
-    /*border: 1px solid #E4E4E4;*/
     margin: 87px auto 160px auto;
 }
 
@@ -540,7 +509,6 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     padding-top: 30px;
-    /*margin: 0 385px 0 185px;*/
 }
 
 .wrapper-6-windows {
@@ -636,4 +604,54 @@ body {
 .imgblock-6-check img{
     width: 14px;
     height: 14px;
+}
+
+/*footer*/
+
+.footer {
+    padding-top: 45px;
+    border-top: 1px solid #DADADA;
+}
+
+.footer-text {
+    width: 202px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: #787878;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+
+.footer-logo-text {
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+.logo-link {
+    margin-right: 50px;
+}
+.footer-list {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #787878;
+}
+
+.footer-list-link:hover {
+    color: #3172B9;
+    text-decoration: underline
 }
