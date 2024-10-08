@@ -1,0 +1,679 @@
+h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+hr {
+    border: 1px;
+    background-color: #E4E4E4;
+    width: 1920px;
+    height: 1px;
+    margin-top: 100px;
+}
+
+.header-bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 0;
+}
+
+.header-bg li {
+    display: inline;
+    list-style: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20.43px;
+    text-align: right;
+    margin-right: 15px; /*ДОДЕЛАТЬ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+.header-bg a {
+    color: #1C1C1C;
+    text-decoration: none /*выделение текста убрать*/
+}
+
+.header-bg a:hover {
+    color: #3172B9;
+    text-decoration: underline /*подчеркнутый текст при наведении мыши*/
+}
+
+.header-bg button {
+    color: #fff;
+    background-color: #3172B9;
+    padding: 15px 35px 15px 35px;
+    border-radius: 3px;
+    border-color: #3172B9;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20.43px;
+    gap: 10px;
+}
+
+.main-bg {
+
+}
+
+.imgblock-1 {
+    position: relative;
+    display: inline-block;
+    width: 1540px;
+    height: 550px
+}
+
+.imgblock-1 span {
+   width: 1540px;
+   height: 550px;
+}
+
+.imgblock-1-Text {
+    position: absolute;
+    top: 100px;
+    left: 185px;
+}
+
+.imgblock-1-Text h1 {
+    color: #1C1C1C;
+    width: 529px;
+    height: 104px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 52px
+}
+
+.imgblock-1-Text p {
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.8px
+}
+
+.imgblock-1-Text button {
+    width: 250px;
+    height: 58px;
+    color: #fff;
+    background-color: #3172B9;
+    padding: 15px 35px 15px 35px;
+    border-radius: 3px;
+    border-color: #3172B9;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20.43px;
+    gap: 10px;
+}
+
+.imgblock-1-SSL {
+    width: 180px;
+    height: 17px;
+    padding: 15px 35px 15px 35px;
+}
+
+.imgblock-1-SSL p {
+    color: #787878;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17.05px
+}
+
+.imgblock-1-SSL img {
+    float: left;
+    width: 14px;
+    height: 17px;
+    padding: 0 10px 0 0;
+}
+
+
+/*imgblock-2*/
+
+
+.imgblock-2-Services h2 {
+    color: #1C1C1C;
+    font-size: 36px;
+    line-height: 46.8px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 87px;
+    text-align: center;
+}
+
+.imgblock-2-Services p {
+    color: #787878;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.imgblock-2-boxes h3 {
+    color: #1C1C1C;
+    font-size: 20px;
+    line-height: 26px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 30px;
+    text-align: center;
+    max-width: 210px;
+    max-height: 63px;
+    margin-left: 30px;
+}
+
+.imgblock-2-boxes p {
+    color: #787878;
+    font-size: 14px;
+    line-height: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 15px;
+    text-align: center;
+    max-width: 210px;
+    max-height: 63px;
+    margin-left: 30px;
+}
+
+/*.imgblock-2-boxes {
+    display: inline-block;
+}*/
+
+
+
+.your-legacy {
+    text-align: center;
+    border: 1px solid #E4E4E4;
+    padding: 0px;
+    width: 270px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.your-legacy img {
+    text-align: center;
+    width: 68px;
+    height: 66px;
+    margin-top: 60px;
+}
+
+.your-health {
+    text-align: center;
+    border: 1px solid #E4E4E4;
+    padding: 0px;
+    width: 270px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.your-health img {
+    text-align: center;
+    width: 86px;
+    height: 64px;
+    margin-top: 60px;
+}
+
+.funeral-memorial {
+    text-align: center;
+    border: 1px solid #E4E4E4;
+    padding: 0px;
+    width: 270px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.funeral-memorial img {
+    text-align: center;
+    width: 86px;
+    height: 64px;
+    margin-top: 60px;
+}
+
+.legal-financial {
+    text-align: center;
+    border: 1px solid #E4E4E4;
+    padding: 0px;
+    width: 270px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.legal-financial img {
+    text-align: center;
+    width: 86px;
+    height: 64px;
+    margin-top: 60px;
+}
+
+
+/*imgblock-3*/
+
+
+.imgblock-3-Articles h2 {
+    color: #1C1C1C;
+    font-size: 36px;
+    line-height: 46.8px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 90px;
+    margin-bottom: 42px;
+    margin-left: 90px; /*Исправить в дальнейшем*/
+}
+
+.imgblock-3-boxes h3 {
+    color: #1C1C1C;
+    font-size: 20px;
+    line-height: 26px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 210px;
+    max-height: 63px;
+    padding-bottom: 15px;
+}
+
+.imgblock-3-boxes p {
+    color: #787878;
+}
+
+/*Jurisdiction*/
+
+.Jurisdiction {
+    display: flex;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 570px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.Jurisdiction-date {
+    color: #787878;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 59px;
+    max-height: 15px;
+    padding-top: 20px;
+}
+
+.Jurisdiction-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 210px;
+    max-height: 63px;
+}
+
+
+.Jurisdiction-info {
+    margin-left: 30px
+}
+
+/*books*/
+
+.books {
+    display: flex;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 570px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.books-date {
+    color: #787878;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 59px;
+    max-height: 15px;
+    padding-top: 20px;
+}
+
+.books-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 210px;
+    max-height: 63px;
+}
+
+.books-info {
+    margin-left: 30px
+}
+
+/*computer*/
+
+.computer {
+    display: flex;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 570px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.computer-date {
+    color: #787878;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 59px;
+    max-height: 15px;
+    padding-top: 20px;
+}
+
+.computer-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 210px;
+    max-height: 63px;
+}
+
+.computer-info {
+    margin-left: 30px
+}
+
+/*window*/
+
+.window {
+    display: flex;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 570px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.window-date {
+    color: #787878;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 59px;
+    max-height: 15px;
+    padding-top: 20px;
+}
+
+.window-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 210px;
+    max-height: 63px;
+}
+
+.window-info {
+    margin-left: 30px
+}
+
+/*imgblock-4*/
+
+.imgblock-4-Clients h2 {
+    color: #1C1C1C;
+    font-size: 36px;
+    line-height: 46.8px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 87px;
+    margin-bottom: 42px;
+}
+
+.imgblock-4 h4 {
+    color: #1C1C1C;
+    font-size: 17px;
+    line-height: 30.6px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+   
+    /**/
+}
+
+.imgblock-4 p {
+    color: #787878;
+}
+
+
+/*John-Armstrong*/
+
+.John-Armstrong {
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 370px;
+    height: 362px;
+    padding: 0px;
+    margin-bottom: 30px;
+
+}
+
+.imgblock-4 hr {
+    border: none;
+    background-color: #DADADA;
+    width: 297px;
+    height: 1px;
+    opacity: 60%;
+    padding: 0px;
+    margin: 30px;
+}
+
+.John-text p {
+    font-size: 14px;
+    line-height: 25.2px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    max-width: 281px;
+    max-height: 150px;
+    margin: 50px 30px 35px 30px;
+    
+}
+
+.John-photo img {
+    border: 2px solid #3172B9;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 360px;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.John-info {
+    display: flex;
+}
+
+.John-name h4 {
+    font-size: 17px;
+    line-height: 30.6px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 130px;
+    max-height: 31px;
+    padding: 0;
+    margin: 0;
+}
+
+.John-name p {
+    font-size: 14px;
+    line-height: 25.2px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 65px;
+    max-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/*JElizabeth-Martin*/
+
+.Elizabeth-Martin {
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 370px;
+    height: 362px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.Elizabeth-text p {
+    font-size: 14px;
+    line-height: 25.2px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    max-width: 281px;
+    max-height: 150px;
+    margin: 50px 30px 35px 30px;
+    
+}
+
+.Elizabeth-photo img {
+    border: 2px solid #3172B9;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 360px;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.Elizabeth-info {
+    display: flex;
+}
+
+.Elizabeth-name h4 {
+    font-size: 17px;
+    line-height: 30.6px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 135px;
+    max-height: 31px;
+    padding: 0;
+    margin: 0;
+}
+
+.Elizabeth-name p {
+    font-size: 14px;
+    line-height: 25.2px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 65px;
+    max-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/*Robin-Soutby*/
+
+.Robin-Soutby {
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    width: 370px;
+    height: 362px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.Robin-text p {
+    font-size: 14px;
+    line-height: 25.2px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    max-width: 281px;
+    max-height: 150px;
+    margin: 50px 30px 35px 30px;
+    
+}
+
+.Robin-photo img {
+    border: 2px solid #3172B9;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 360px;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.Robin-info {
+    display: flex;
+}
+
+.Robin-name h4 {
+    font-size: 17px;
+    line-height: 30.6px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 135px;
+    max-height: 31px;
+    padding: 0;
+    margin: 0;
+}
+
+.Robin-name p {
+    font-size: 14px;
+    line-height: 25.2px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 65px;
+    max-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/*#header-id {
+    padding: 20px 0 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+/*body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }*/
+
+  /*.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
