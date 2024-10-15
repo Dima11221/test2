@@ -159,17 +159,26 @@
 }
 
 .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
     width: 242px;
     height: 48px;
     border: 1px solid var(--light-grey);
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;  
-    
+    line-height: 24px;    
 }
+
+/*.download-img {
+    background: url(../img/strelka.svg) no-repeat left center;
+}*/
 
 .download-img {
     background: url(../img/strelka.svg) no-repeat left center;
+    width: 16px;
+    height: 16px; 
 }
 
 .download-button:hover {
