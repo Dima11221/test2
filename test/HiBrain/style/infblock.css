@@ -1,0 +1,178 @@
+.infblock {
+    max-width: 1920px;
+    background-color: var(--grey);
+    padding-bottom: 160px;
+}
+
+.wrapper-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.infblock-wrapper {
+    display: grid;
+    /*justify-items: center;*/
+    row-gap: 40px;
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+
+.btn-gr-style {
+    padding: 8px 16px;
+    background-color: #2A2F370F;
+}
+
+.btn-gr-style:hover {
+    text-decoration: solid;
+    color: var(--white-color);
+    background-color: var(--blue);
+}
+
+.btn-wt-style {
+    padding: 8px 16px;
+    background-color: #ffffff;
+}
+
+.btn-wt-style:hover {
+    text-decoration: solid;
+    color: var(--white-color);
+    background-color: var(--blue);
+}
+
+.wrapper-imgblock {
+    display: grid;
+    width: 363px;
+    height: 448px;
+    background-color: var(--white-color);
+    /*border: 1px solid var(--white-color);*/
+}
+
+.wrapper-tape {
+    margin-bottom: 32px;
+}
+
+.imgblock-logo-btn {
+    position: relative;
+    width: 363px;
+    height: 200px;
+}
+
+.imgblock-logo {
+    position: absolute;
+    width: 363px;
+    height: 200px;
+}
+
+.imgblock-btn-styles {
+    padding: 4px 12px;
+    color: var(--white-color);
+    background-color: var(--blue);
+}
+
+.imgblock-link {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 152px 269px 16px 16px;
+}
+
+.imgblock-info {
+    display: grid;
+    /*align-items: center;*/
+    max-width: 363px;
+    /*height: 248px;*/
+    margin: 0 auto;
+}
+
+.info-head {
+    width: 315px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--light-grey);
+}
+
+.info-head:hover {
+    color: var(--blue);
+    text-decoration: solid;
+}
+
+.info-text {
+    width: 315px;
+    height: 48px;
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.info-price {
+    width: 315px;
+    /*height: 24px;*/
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.info-date {
+    display: flex;
+    /*justify-content: space-between;*/
+    gap: 161px;
+    width: 315px;
+    color: var(--light-grey);
+    opacity: 40%;
+}
+
+.card-time {
+    width: 101px;
+    height: 24px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.number-of-views {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    gap: 8px;
+}
+
+.wrapper-download {
+    
+}
+
+.download-button {
+    width: 242px;
+    height: 48px;
+    border: 1px solid var(--light-grey);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;  
+    
+}
+
+.download-img {
+    background: url(../img/strelka.svg) no-repeat left center;
+}
+
+.download-button:hover {
+    color: var(--white-color);
+    background-color:var(--blue);
+}

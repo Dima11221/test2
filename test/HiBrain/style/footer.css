@@ -1,0 +1,57 @@
+.footer {
+    /*width: 1920px;
+    height: 304px;*/
+    border: 1px solid var(--white-color);
+    background-color: var(--light-grey);
+    padding-top: 48px;
+}
+
+.wrapper-hiBrain {
+
+}
+
+.logo-link-img {
+    width: 91px;
+    height: 39px;
+}
+
+.footer-logo {
+    gap: 40px;
+}
+
+.footer-links {
+    gap: 20px;
+}
+
+.footer-logo-text {
+    width: 287px;
+    border-left: 1px solid var(--white-color);
+    padding-left: 40px;
+    opacity: 60%;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--white-color);
+}
+
+.footer-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+    padding-top: 64px;
+}
+
+.footer-end {
+    border-top: 1px solid var(--white-color);
+    opacity: 60%;
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.footer-list-end {
+    padding-top: 24px;
+}
